@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat',sans-serif;
+    overflow-x: hidden}
+
+#menu a {
+    font-size: 15px;
+    font-weight:bold;
+    color: rgb(116, 75, 58);
+
+}
+
+
+
+.carousel-inner{
+    background-size: cover;
+    background-position: center center;
+    max-height: 40vw;
+}
+
+@media(max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+
+    }
+
+}
+
+@media(max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+
+    }
+
+}
+
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    font-size: 13px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+    font-size: 10px;
+}
+
+.colum1 h1{
+    font-size: 20px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 20px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 20px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+    font-size: 10px;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
